@@ -29,8 +29,7 @@
               Language
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">English</a>
-              <a class="dropdown-item" href="#">German</a>
+              <a class="dropdown-item" *ngFor="let language of languageList" (click)="changeLanguage(language.code)" href="/Home/{{language.code}}/">{{language.label}}</a>
             </div>
           </li>
         </ul>

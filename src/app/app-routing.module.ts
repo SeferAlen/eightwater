@@ -7,21 +7,22 @@ import { ContactComponent } from './Components/contact/contact.component';
 
 
 const routes: Routes = [{
-  path: 'Home', 
+  path: 'Home/:lang', 
   component: HomeComponent
   }, {
-  path: 'About',
+  path: 'About/:lang',
   component: AboutComponent
   }, {
-  path: 'Products', 
+  path: 'Products/:lang', 
   component: ProductsComponent
   }, {
-  path: 'Contact', 
+  path: 'Contact/:lang', 
   component: ContactComponent
   }, { 
-  path: '**', 
-  redirectTo: 'Home' 
-}];
+  path: '', 
+  redirectTo: 'Home/en',
+  pathMatch: 'full' 
+  }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
