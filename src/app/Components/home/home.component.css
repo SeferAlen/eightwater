@@ -1,0 +1,17 @@
+.home-article {
+    background:
+#fff;
+padding: 2em 1.5em 1em;
+margin-top: 3em;
+border: 1px solid
+#DFE1E6;
+border-radius: 4px;
+-webkit-box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
+box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
+}
+
+.newLine {
+    white-space: pre-line;
+}
+
