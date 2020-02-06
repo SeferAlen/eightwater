@@ -1,0 +1,24 @@
+{
+    "menu": {
+        "home": "Home",
+        "about": "About",
+        "products": "Products",
+        "contact": "Contact",
+        "language": "Language"
+    },
+    "home": {
+        "h1": "Eight-water",
+        "h2": "Natural water from best places in nature",
+        "h3": "Bosnia and Hercegovina",
+        "text0": "Eight-water, water for all your needs, and first of all health",
+        "text1": "Our natural water comes from the heart of Bosnia and Herzegovina. In the mountains of central Bosnia there are a number of top quality sources from which all our products are sourced. In addition to exceptional quality, this natural spring water offers great benefits for your health. Our company was founded in 2011 with the aim of offering these natural benefits to people all over Bosnia and Herzegovina and the world. Our customers come from various countries in Europe, Asia and Africa. I offer a large number of products, but we also do specialized products tailored to your needs. No matter where, to whom or how we deliver our water - its quality is always beyond question.",
+        "text2": "You can contact us by email",
+        "text3": "or by the phone +38746578389874",
+        "pictureH1": "Mountains",
+        "pictureH2": "Nature",
+        "pictureH3": "Fresh",
+        "pictureT1": "From nature best",
+        "pictureT2": "From green fields",
+        "pictureT3": "From cleanest air"
+    }
+}

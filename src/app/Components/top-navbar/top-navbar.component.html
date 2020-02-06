@@ -11,25 +11,25 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item" routerLinkActive="active">
-            <a class="nav-link" routerLink="Home">Home
+            <a class="nav-link" routerLink="Home">{{ 'menu.home' | translate }}
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item" routerLinkActive="active">
-            <a class="nav-link" routerLink="About">About us</a>
+            <a class="nav-link" routerLink="About">{{ 'menu.about' | translate }}</a>
           </li>
           <li class="nav-item" routerLinkActive="active">
-            <a class="nav-link" routerLink="Products">Products</a>
+            <a class="nav-link" routerLink="Products">{{ 'menu.products' | translate }}</a>
           </li>
           <li class="nav-item" routerLinkActive="active">
-            <a class="nav-link" routerLink="Contact">Contact</a>
+            <a class="nav-link" routerLink="Contact">{{ 'menu.contact' | translate }}</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Language
+              {{ 'menu.language' | translate }}
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" *ngFor="let language of languageList" (click)="changeLanguage(language.code)" href="/Home/{{language.code}}/">{{language.label}}</a>
+              <a class="dropdown-item langButton" *ngFor="let language of languageList" (click)="changeLanguage(language.code)">{{language.label}}</a>
             </div>
           </li>
         </ul>

@@ -1,0 +1,24 @@
+{
+    "menu": {
+        "home": "Početna",
+        "about": "O nama",
+        "products": "Proizvodi",
+        "contact": "Kontakt",
+        "language": "Jezik"
+    },
+    "home": {
+        "h1": "Eight-water",
+        "h2": "Prirodna voda iz najboljih izvora",
+        "h3": "Bosna i Hercegovina",
+        "text0": "Eight-water, voda za sve vaše potrebe, a najprije zdravlje",
+        "text1": "Naša prirodna voda dolazi iz srca Bosne i Hercegovina. U planinama srednje bosne se nalazi veliki broj najkvalitetnijih izvora iz kojih se snadbjevaju svi naši proizvodi. Osim iznimnog kvaliteta ova prirodna izvorska voda nudi i velike benefite za vaše zdrvalje. Naša kompanije je osnovana 2011 godine sa ciljem da ove prirodne blagodati ponudi ljudima diljem Bosne i Hercegovine, ali i svijeta. Naši kupci dolaze iz raznih zemalja u Evropi, Aziji i Africi. Nudim veliki broj proizvoda, ali također radimo i specijalizovane proizvode prilagođene vašim potrebama. Bez obzira gdje, kome i kako dostavljamo našu voda - njen kvalitet je uvijek neupitan.",
+        "text2": "Možete nas kontaktirati putem emaila",
+        "text3": "ili putem telefona +38746578389874",
+        "pictureH1": "Planine",
+        "pictureH2": "Priroda",
+        "pictureH3": "Svježina",
+        "pictureT1": "Iz srca prirode",
+        "pictureT2": "Sa zelenih padina",
+        "pictureT3": "Najčistijeg zraka"
+    }
+}

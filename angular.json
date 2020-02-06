@@ -61,14 +61,6 @@
                   "maximumError": "10kb"
                 }
               ]
-            },
-            "de": {
-              "aot": true,
-              "outputPath": "dist/eightwater-de",
-              "i18nFile": "src/locale/messages.de.xlf",
-              "i18nFormat": "xlf",
-              "i18nLocale": "de",
-              "i18nMissingTranslation": "error"
             }
           }
         },
@@ -80,9 +72,6 @@
           "configurations": {
             "production": {
               "browserTarget": "eightwater:build:production"
-            },
-            "de": {
-              "browserTarget": "eightwater:build:de"
             }
           }
         },

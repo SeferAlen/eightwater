@@ -1,0 +1,24 @@
+{
+    "menu": {
+        "home": "Erste zeit",
+        "about": "Unsere company",
+        "products": "Unsere products",
+        "contact": "Kontakte",
+        "language": "Sprache"
+    },
+    "home": {
+        "h1": "Eight-water",
+        "h2": "Natürliches Wasser von den besten Orten in der Natur",
+        "h3": "Bosnien und Herzegowina",
+        "text0": "Acht Wasser, Wasser für alle Bedürfnisse und vor allem Gesundheit",
+        "text1": "Unser natürliches Wasser kommt aus dem Herzen von Bosnien und Herzegowina. In den Bergen von Zentralbosnien gibt es eine Reihe von Quellen höchster Qualität, aus denen alle unsere Produkte stammen. Neben einer außergewöhnlichen Qualität bietet dieses natürliche Quellwasser einen großen Nutzen für Ihre Gesundheit. Unser Unternehmen wurde 2011 mit dem Ziel gegründet, Menschen in ganz Bosnien und Herzegowina und der ganzen Welt diese natürlichen Vorteile zu bieten. Unsere Kunden kommen aus verschiedenen Ländern in Europa, Asien und Afrika. Ich biete eine große Anzahl von Produkten an, aber wir machen auch spezielle Produkte, die auf Ihre Bedürfnisse zugeschnitten sind. Egal wohin, an wen oder wie wir unser Wasser liefern - seine Qualität steht immer außer Frage.",
+        "text2": "Sie können uns per E-Mail kontaktieren",
+        "text3": "oder telefonisch unter +38746578389874",
+        "pictureH1": "Berge",
+        "pictureH2": "Natur",
+        "pictureH3": "Frisch",
+        "pictureT1": "Aus der Natur am besten",
+        "pictureT2": "Aus grünen Feldern",
+        "pictureT3": "Aus reinster Luft"
+    }
+}

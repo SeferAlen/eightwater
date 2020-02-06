@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { ActivatedRoute } from "@angular/router";
 
 @Component({
@@ -9,6 +9,7 @@ import { ActivatedRoute } from "@angular/router";
 export class TopNavbarComponent implements OnInit {
 
   @Input() data;
+  @Output() langChangeEmit: EventEmitter<String> = new EventEmitter();
   languageList;
   language;
   constructor() { }
@@ -20,11 +21,9 @@ export class TopNavbarComponent implements OnInit {
     } else {
       this.language = localStorage.getItem('language');
     }
-    console.log("Language is " + this.language);
-    console.log("Languages are " + this.languageList);
   }
 
   changeLanguage(lang: string) {
-    localStorage.setItem('language', lang);;
+    this.langChangeEmit.emit(lang);
   }
 }
