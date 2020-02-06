@@ -1,0 +1,15 @@
+/* navbar */
+.navbar {
+    background-color: rgb(52, 116, 157) !important;
+    border-color: #E7E7E7;
+}
+
+/* Title */
+.navbar-default .navbar-brand {
+    color: #777;
+}
+
+.langButton {
+    cursor: pointer;
+}
+
