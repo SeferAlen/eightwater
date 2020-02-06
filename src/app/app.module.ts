@@ -10,10 +10,14 @@ import { AboutComponent } from './Components/about/about.component';
 import { ProductsComponent } from './Components/products/products.component';
 import { ContactComponent } from './Components/contact/contact.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 // import ngx-translate and the http loader
 import {TranslateLoader, TranslateModule} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {HttpClient, HttpClientModule} from '@angular/common/http';
+
+import { AnimateInModule } from 'ngx-animate-in';
 
 export function HttpLoaderFactory(httpClient: HttpClient) {
   return new TranslateHttpLoader(httpClient);
@@ -39,7 +43,9 @@ export function HttpLoaderFactory(httpClient: HttpClient) {
       }
     }),
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    AnimateInModule
   ],
   providers: [],
   bootstrap: [AppComponent]

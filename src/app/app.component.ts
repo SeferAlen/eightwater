@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { animate, style } from '@angular/animations';
 
 @Component({
   selector: 'app-root',
