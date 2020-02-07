@@ -20,3 +20,18 @@ box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
     background-position: bottom; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
 }
+
+.header {
+    color:
+white !important;
+text-align: center;
+font-size: 2.2rem;
+padding: 0.3rem;
+background: rgb(0,69,122);
+background: linear-gradient(90deg,
+rgba(0,69,122,0.6474790599833684) 0%, rgba(0,69,122,1) 10%, rgba(0,69,122,1) 50%, rgba(0,69,122,1) 90%, rgba(0,69,122,0.6474790599833684) 100%);
+}
+
+* {
+    color: #00457A !important;
+}
