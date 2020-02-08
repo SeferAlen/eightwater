@@ -16,7 +16,7 @@
         <hr>
 
         <!-- Date/Time -->
-        <p>{{ 'home.h3' | translate }}</p>
+        <p class="gradient" style="padding: 5px; text-align: center;">{{ 'home.h3' | translate }}</p>
 
         <hr>
 
@@ -33,7 +33,7 @@
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
           <div class="view">
-            <img class="d-block w-100" style=" width:100%; height: 400px !important;" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" alt="First slide">
+            <img class="d-block w-100 imgStyle" style=" width:100%; height: 400px !important;" src="/assets/img/eightVoda4.jpg" alt="First slide">
             <div class="mask rgba-black-light"></div>
           </div>
           <div class="carousel-caption">
@@ -44,7 +44,7 @@
         <div class="carousel-item">
           <!--Mask color-->
           <div class="view">
-            <img class="d-block w-100" style=" width:100%; height: 400px !important;" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
+            <img class="d-block w-100 imgStyle" style=" width:100%; height: 400px !important;" src="/assets/img/eightCustom.jpg" alt="Second slide">
             <div class="mask rgba-black-strong"></div>
           </div>
           <div class="carousel-caption">
@@ -55,7 +55,7 @@
         <div class="carousel-item">
           <!--Mask color-->
           <div class="view">
-            <img class="d-block w-100" style=" width:100%; height: 400px !important;" src="/assets/img/slide1.jpg" alt="Third slide">
+            <img class="d-block w-100 imgStyle" style=" width:100%; height: 400px !important;" src="/assets/img/slide1.jpg" alt="Third slide">
             <div class="mask rgba-black-slight"></div>
           </div>
           <div class="carousel-caption">
@@ -79,7 +79,7 @@
     <!--/.Carousel Wrapper-->
         <hr>
 
-        <article class="home-article greetings center">
+        <article class="home-article greetings center" style="">
         <blockquote class="blockquote">
           <p class="mb-0" animateIn>{{ 'home.text0' | translate }}</p>
         </blockquote>
@@ -92,7 +92,7 @@
         <hr>
         <img class="productImage" style="width: 100%; height: auto; margin-top: 4%;" src="assets/img/eightVoda5.jpg">
         <hr>
-        <p class="mb-0 newLine" style="background-color: #047F8E; color: white; padding: 10px;">{{ 'home.text5' | translate }}{{ 'home.text4' | translate }}</p>
+        <p class="mb-0 newLine gradient" style="color: white; padding: 10px;"><img class="imgStyle sideImg productImage row" style="width: 100%; height: auto; margin-top: 10%;" src="assets/img/eightVoda2.jpg"> {{ 'home.text5' | translate }}{{ 'home.text4' | translate }}</p>
       </article>
 
       <hr>
@@ -114,7 +114,7 @@
         </blockquote>
         <!-- Post Content -->
         <p class="mb-0 waterBackGround" style="color: white;">{{ 'home.text14' | translate }} <a href="/About" style="color: white; text-decoration: underline;">About us</a></p>
-        <img class="productImage" style="width: 100%; height: 250px; margin-top: 10%;" src="assets/img/lok2.jpg">
+        <img class="productImage imgStyle" style="width: 100%; height: 250px; margin-top: 10%;" src="assets/img/lok2.jpg">
       </article>
 
       <hr>
@@ -141,7 +141,7 @@
       </div>
 
       <!-- Sidebar Widgets Column -->
-      <div class="col-md-4" style="margin-top: 1.5rem !important;">
+      <div class="col-md-4" style="margin-top: 1.5rem !important; margin-bottom: 1.5rem !important;">
 
         <h2>{{ 'menu.contact' | translate }}</h2>
 
@@ -159,8 +159,8 @@
 
         <p>
           {{ 'home.text11' | translate }}
+          
         </p>
-
         <img class="productImage" style="width: 100%; height: auto; margin-top: 10%;" src="assets/img/certification.jpg">
   
       </div>

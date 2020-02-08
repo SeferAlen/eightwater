@@ -35,3 +35,10 @@ rgba(0,69,122,0.6474790599833684) 0%, rgba(0,69,122,1) 10%, rgba(0,69,122,1) 50%
 * {
     color: #00457A !important;
 }
+
+.imgStyle {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
