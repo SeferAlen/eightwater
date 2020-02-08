@@ -13,11 +13,12 @@
 
     
 <script>
+  
   var prevScrollpos = window.pageYOffset;
   window.onscroll = function() {
+    document.getElementById("navbar").style.transition = "all 1.2s";
   var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
-      document.getElementById("navbar").style.transition = "all 1.2s";
       document.getElementById("navbar").style.top = "0";
     } else {
       document.getElementById("navbar").style.top = "-100px";
