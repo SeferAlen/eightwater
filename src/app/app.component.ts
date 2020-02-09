@@ -1,14 +1,11 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { animate, style } from '@angular/animations';
-import { RouterOutlet } from '@angular/router';
-import { routeTransitionAnimations } from './route-transition-animations';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
-  animations: [routeTransitionAnimations]
+  styleUrls: ['./app.component.css']
 })
 
 export class AppComponent {
@@ -42,10 +39,4 @@ export class AppComponent {
     changeLanguageHander(lang: string) {
     this.useLanguage(lang);
   }
-
-  prepareRoute(outlet: RouterOutlet) {
-  return outlet && 
-    outlet.activatedRouteData && 
-    outlet.activatedRouteData['animationState'];
- }
 }

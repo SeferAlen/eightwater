@@ -8,20 +8,16 @@ import { ContactComponent } from './Components/contact/contact.component';
 
 const routes: Routes = [{
   path: 'Home', 
-  component: HomeComponent,
-  data: { animationState: 'One' }
+  component: HomeComponent
   }, {
   path: 'About',
-  component: AboutComponent,
-  data: { animationState: 'Two' }
+  component: AboutComponent
   }, {
   path: 'Products', 
-  component: ProductsComponent,
-  data: { animationState: 'Three' }
+  component: ProductsComponent
   }, {
   path: 'Contact', 
-  component: ContactComponent,
-  data: { animationState: 'Four' }
+  component: ContactComponent
   }, { 
   path: '', 
   redirectTo: 'Home',

@@ -15,9 +15,10 @@
 <body>
   <app-top-navbar [data]="languageList" (langChangeEmit)="changeLanguageHander($event)"></app-top-navbar>
 
-  <div [@triggerName]="prepareRoute(outlet)">
-    <router-outlet #outlet="outlet"></router-outlet>
-  </div>
+  <router-outlet></router-outlet>
+
+  <app-footer></app-footer>
+
 
 </body>
 
