@@ -1,0 +1,96 @@
+.flexContainer {
+    display: flexbox;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 1rem;
+margin-top: 5%;
+border: 1px solid black;
+padding: 5px;
+background:rgb(74, 164, 109);
+color:
+white;
+-webkit-box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
+box-shadow: 4px 4px 5px -4px
+rgba(0,0,0,0.75);
+}
+
+ul {
+    padding: 0px;
+}
+
+.height {
+  height: 175px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+  img {
+      height: 330px;
+  }
+
+  .flex-container {
+    padding-top: 2%;
+    list-style: none;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  .nowrap  { 
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  
+  .wrap    { 
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }  
+
+  .header1 {
+      text-align: center;
+      font-size: 2rem;
+  }
+
+  .header2 {
+    text-align: center;
+      color: black;
+}
