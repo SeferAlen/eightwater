@@ -1,0 +1,69 @@
+{
+    "menu": {
+        "home": "Home",
+        "about": "About",
+        "products": "Products",
+        "contact": "Contact",
+        "language": "Language",
+        "from": "from"
+    },
+    "home": {
+        "h1": "Eight-water",
+        "h2": "Natural water from best places in nature",
+        "h3": "Bosnia and Herzegovina",
+        "email": "- here",
+        "products": "click here",
+        "about": "here",
+        "text0": "Our objective",
+        "text1": "People nowadays pay great attention to the quality of water that is used for drinking and people do purification of the water before using it, using very expensive purification methods. Therefore, rational exploitation of the ecologically and clean spring waters in very important from the economic and ecologic aspect. That's why we took a step into exploitation and use quality spring water, such as 'Husića vrelo'-Duboka in Bugojno Municipality.",
+        "text2": "You can contact us by email",
+        "text6": "About Eight",
+        "text7": "Our premium water source 'Husića Vrelo' spring is located at Bugojno, a town and municipality located in Central Bosnia. Springs melted from snow and ice on top of Mountain converge underground, moving along holes and cracks in the basalt. Our water is being sold from Europe to Middle-East from where a great number of our customers come. If you want to see our products ",
+        "text8": "No filtration and fresh taste",
+        "text9": "Our natural water is pure and without any filtration, which is only possible due to high quality of water in 'Husića vrelo' spring. The water is never treated with chemicals or anything that affects the water quality. EIGHT spring water is pure, crisp and has a delicious flavour. It is exceptionally refreshing and contains so many naturally occurring beneficial minerals.",
+        "text12": "Quality, safety and stability of water",
+        "text13": "The research about the stability of water after bottling is conducted for the needs of the project on producing the bottled water from source 'Husića vrelo'-Duboka. This is presented in the study of quality, stability and opportunities of bottling spring water 'Husića vrelo'-Duboka, which results show that the water is stable and appropriate for bottling. Those data are used in this pre-study on the economic justification. Research results show that during the certain time period there is no change of concentration of components that are present in the water and there are no chemical and transformation processes, no color change or precipitation. Therefore it might be concluded that the water is stable in defined research time and advisable for bottling in PET (plastic) and glass packaging.",
+        "text3": "or by the phone ",
+        "text5": "Eight signs you might be suffering from Heat Exhaustion:",
+        "text4": "\n\n1. Dizziness \n2. Nausea and vomiting \n3. Dry mouth \n4. A headache \n5. Fatigue or weakness \n6. Heavy sweating \n7. Cold, pale, and clammy skin \n8. A fast, weak pulse",
+        "text10": "Certification",
+        "text11": "We belive in providing the best quality",
+        "text14": "Eight water is being produced in Valley Aqua facility near town of Bugojno. Located in a valley and completely surrounded by nature only best results are possible here. Not only we produce our products here, but also take inspiration from this untouched green world all around us. You can see more ",
+        "pictureH1": "Fresh",
+        "pictureH2": "For everyone",
+        "pictureH3": "Everywhere",
+        "pictureT1": "Fresh and healty water",
+        "pictureT2": "Water for all ages",
+        "pictureT3": "Around the world"
+    },
+    "about": {
+        "descrH1": "From heart of nature",
+        "descrT1": "Our company takes best from nature, and only way to do that is to be in best of nature. Because of that, one of our facilities is located as close to water source as possible. There is anything but nature all around us",
+        "descrH2": "More of this beauty",
+        "descrT2": "If you wana see more from this green world look at these pictures",
+        "descrH3": "Water source 'Husić Vrelo' Duboka, Bugojno",
+        "descrT3": "The location of the source of the Husic water spring is Deep in the municipality of Bugojno, SBK-Central Bosnia Canton, Federation of BiH and is 6 km away from the town of Bugojno. The mentioned source is, in hydrogeological sense, an overflow of a large karst reservoir and is located in the area of ​​karst massifs. The specificity of this source is the mechanism of springs, that is, the appearance of water at the source itself, so that water can be drunk directly from the source, without any further technological processes. It is a catchment area that is uninhabited, so access is very convenient, as is the environment of the well itself. In terms of abundance ie. the amount of water flow, so far, tests have shown that the minimum water flow is about 211 liters per second. There was a slight change in the water yield depending on the season, which indicates that the relative stability of the source means that the water flows from greater depths to which there is no significant influence of atmospheric water, which appears to a greater or lesser extent. This means that the average water flow of a spring of 200 liters per second can be discussed. Furthermore, the water from this source is of high quality in terms of its chemical and microbiological characteristics, bearing in mind the following:\n\n- the content of substances in water, especially nitrates found in low concentrations and nitrites whose concentrations are below the limit of study, make this water extremely high quality and suitable for drinking,\n- water that contains minimal amounts of chloride, sulfate, nitrite and phosphate, and the organic matter is present in negligible concentrations,\n- the content of heavy metals in this water is very low, far below the maximum permissible limit values,\n- from the point of view of the presence of pathogenic microorganisms, the water is hygienically correct.\n\n The results of water testing so far have shown that with the time of standing of water there are no chemical processes, that is, the change of water color and the appearance of sediment, so it can be concluded that the water is stable and very suitable for bottling. Considering all of the above, it can be concluded that the water from the Husić spring is of high quality, it is stable after bottling and that it fulfills all the conditions regulated by the current regulations on natural spring waters and the health of the water",
+        "descrH4": "More of this beauty",
+        "descrT4": "If you wana see more from this green world look at these pictures"
+    },
+    "products": {
+        "title": "These are our main and best selling products",
+        "title1": "Small 0,375l package",
+        "title2": "Large 1,5l package",
+        "title3": "Customized wrapping",
+        "title4": "Mineral water",
+        "negotiable": "Negotiable",
+        "text1": "Our main and best selling product is natural water in 0.375l package. This is preferable for most companies who offer our water allong side lunch or coffe to their customers.",
+        "text2": "Along side 0.375l package we offer bigger 1.5l package which is preferable for home use or some outdoor activities like mountain climing and long walks",
+        "text3": "For bussineses who wants their logos to be on bottle we also offer custom wrapping for our products. This is really popular in Hotels and Restaurans.",
+        "text4": "Mineral water is also being produce in our Aqua Valley. We take best of quality from our natural watter products and blend it to produce best mineral water out there."
+    },
+    "contact": {
+        "h1": "Eight-water",
+        "h2": "Natural water from best places in nature",
+        "h3": "Bosnia and Herzegovina",
+        "email": "email",
+        "phone": "phone",
+        "address": "address"
+    }
+}

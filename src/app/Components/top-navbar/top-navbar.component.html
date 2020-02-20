@@ -1,25 +1,36 @@
+  <!-- Load an icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navBackground" id="navbar">
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
+      <a class="navbar-brand" href="#"><div class="loading wave2" style="text-align: left;">Eight water<br><div style="margin-top: -13px; font-size: 0.9rem;">{{ 'menu.from' | translate }} Valley Aqua Bugojno</div></div></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="Home">{{ 'menu.home' | translate }}
               <span class="sr-only">(current)</span>
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="About">{{ 'menu.about' | translate }}</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="Products">{{ 'menu.products' | translate }}</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" routerLink="Contact">{{ 'menu.contact' | translate }}</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              {{ 'menu.language' | translate }}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item langButton" *ngFor="let language of languageList" (click)="changeLanguage(language.code)">{{language.label}}</a>
+            </div>
           </li>
         </ul>
       </div>

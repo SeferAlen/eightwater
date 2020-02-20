@@ -1,0 +1,44 @@
+.home-article {
+    background:
+#fff;
+padding: 2em 1.5em 1em;
+margin-top: 3em;
+border: 1px solid
+#DFE1E6;
+border-radius: 4px;
+-webkit-box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
+box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
+}
+
+.newLine {
+    white-space: pre-line;
+}
+
+.backGround {
+    background: url('/assets/img/waterOpacity.jpg');
+    background-position: bottom; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.header {
+    color:
+white !important;
+text-align: center;
+font-size: 2.2rem;
+padding: 0.3rem;
+background: rgb(0,69,122);
+background: linear-gradient(90deg,
+rgba(0,69,122,0.6474790599833684) 0%, rgba(0,69,122,1) 10%, rgba(0,69,122,1) 50%, rgba(0,69,122,1) 90%, rgba(0,69,122,0.6474790599833684) 100%);
+}
+
+* {
+    color: #00457A !important;
+}
+
+.imgStyle {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
