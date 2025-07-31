@@ -8,6 +8,11 @@
         "from": "Aus"
     },
     "home": {
+        "tab1": "Overview",
+        "tab2": "Features",
+        "tab3": "Gallery",
+        "tab2content": "Here you can describe product features and benefits.",
+        "tab3content": "Explore our gallery to see more visuals.",
         "h1": "Eight-water",
         "h2": "Natürliches Wasser von den besten Orten in der Natur",
         "h3": "Bosnien und Herzegowina",

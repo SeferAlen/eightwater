@@ -1,7 +1,7 @@
 /* navbar */
 .navbar {
-    background-color: #047F8E !important;
-    border-color: #E7E7E7;
+    background-color: white !important;
+    border-color: silver;
 }
 
 /* Title */
@@ -17,7 +17,7 @@
     text-transform: uppercase;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: bold;
-    font-size: 20pt;
+    font-size: 30pt;
     text-align: center;
     left: 0;
     right: 0;
@@ -41,14 +41,12 @@
     opacity: 1;
   }
   .wave2 {
-    background-image: url("https://webdevtrick.com/wp-content/uploads/water-wave.png");
     -moz-background-clip: text;
     -o-background-clip: text;
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent;
-    text-shadow: 0px 0px rgba(255, 255, 255, 0.06);
-    animation: wave-animation 1s infinite linear, loading-animation 10s infinite linear alternate;
+    color: rgba(4,127,142,1);
+    text-shadow: 5px 5px rgba(255, 255, 255, 0.06);
     background-size: 30px 10px;
     background-repeat: repeat-x;
     opacity: 1;
@@ -76,11 +74,21 @@
   }
 
 .navBackground {
-  opacity: 0.98;
-  background: rgb(4,127,142);
-  background: linear-gradient(90deg, rgba(4,127,142,1) 0%, rgba(4,127,142,1) 20%, rgba(4,116,130,0.9808123933167017) 50%, rgba(2,111,125,0.9415967070421919) 80%, rgba(0,69,122,0.8015406846332283) 100%);
+  background: rgb(255, 255, 255);
+  background: white;
 }
 
-.nav-item {
+.nav-link {
+  color: rgba(4,127,142,1) !important;
   font-size: 1.3rem;
+  background-color: white;
+  border: 1px solid transparent;
+  transition: background-color 0.2s ease-in-out, border 0.2s ease-in-out;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+  background-color: #f0f0f0; /* slightly silver */
+  border-color: rgba(200, 200, 200, 0.6);
 }
