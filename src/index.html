@@ -13,8 +13,7 @@
 
     
 <script>
-  
-  var prevScrollpos = window.pageYOffset;
+    var prevScrollpos = window.pageYOffset;
   window.onscroll = function() {
     document.getElementById("navbar").style.transition = "all 1.2s";
   var currentScrollPos = window.pageYOffset;
@@ -24,7 +23,60 @@
       document.getElementById("navbar").style.top = "-100px";
     }
     prevScrollpos = currentScrollPos;
-  }
-  </script>
+  };
+
+    (function () {
+    function closeWithAnimation(nav) {
+      if (!nav || !nav.classList.contains('show')) return;
+
+      // measure current height
+      var startHeight = nav.scrollHeight;
+
+      // set the current height explicitly so we can animate from it
+      nav.style.height = startHeight + 'px';
+
+      // force reflow
+      nav.offsetHeight;
+
+      // switch classes to start the animation
+      nav.classList.remove('show');
+      nav.classList.remove('collapse'); // ensure clean state
+      nav.classList.add('collapsing');
+
+      // animate to 0
+      requestAnimationFrame(function () {
+        nav.style.height = '0px';
+      });
+
+      // when the height transition ends, finalize state
+      var onEnd = function (e) {
+        if (e.propertyName !== 'height') return;
+        nav.removeEventListener('transitionend', onEnd);
+        nav.classList.remove('collapsing');
+        nav.classList.add('collapse');
+        nav.style.height = ''; // clear inline height
+        nav.setAttribute('aria-expanded', 'false');
+        var toggler = document.querySelector('.navbar-toggler[aria-controls="navbarResponsive"]');
+        if (toggler) toggler.setAttribute('aria-expanded', 'false');
+      };
+      nav.addEventListener('transitionend', onEnd);
+    }
+
+    document.addEventListener('click', function (e) {
+      var item = e.target.closest('#navbarResponsive a.nav-link:not(.dropdown-toggle), #navbarResponsive a.dropdown-item');
+      if (!item) return;
+      console.log('hello there');
+
+      var nav = document.getElementById('navbarResponsive');
+      // only animate on mobile (when toggler is visible)
+      var togglerVisible = window.getComputedStyle(document.querySelector('.navbar-toggler')).display !== 'none';
+      if (togglerVisible) closeWithAnimation(nav);
+    }, true);
+  })();
+
+
+</script>
+
+
 </body>
 </html>
