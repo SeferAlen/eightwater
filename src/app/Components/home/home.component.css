@@ -39,6 +39,11 @@ box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
     background: linear-gradient(90deg, rgba(4,127,142,1) 0%, rgba(4,127,142,1) 20%, rgba(4,116,130,1) 50%, rgba(4,127,142,0.9387955865940126) 80%, rgba(4,127,142,0.921988863904937) 100%);
 }
 
+p.lead {
+  white-space: pre-line; /* turns \n into <br> visually */
+}
+
+
 .sideImg {
     margin: 0px;
     float: right;

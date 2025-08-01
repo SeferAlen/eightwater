@@ -76,6 +76,8 @@
 .navBackground {
   background: rgb(255, 255, 255);
   background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,.08); 
+  border-bottom: 1px solid rgba(0,0,0,.08); 
 }
 
 .nav-link {
@@ -111,3 +113,37 @@
     transition: height .55s ease;
   }
 
+/* remove any default underline */
+.nav-link { text-decoration: none; }
+
+/* active/current route underline under text only */
+.nav-item.active > .nav-link,
+.nav-link.active {
+  text-decoration: underline;
+  text-decoration-color: rgba(4,127,142,1);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px; /* distance from text */
+}
+
+
+/* text-only rectangle that wraps content */
+#first1 {
+  display: inline-block;                      /* shrink to text width */
+  padding: .35rem .6rem;
+  margin: .25rem 0;
+  border-radius: .5rem;                       /* soften corners (tweak as you like) */
+  background: rgba(4,127,142,.12);            /* lighter version of brand */
+  color: #035c66;                             /* darker version of brand */
+  border: 1px solid rgba(4,127,142,.25);      /* subtle outline */
+  line-height: 1.2;
+}
+
+
+/* optional: also on hover/focus */
+.nav-link:hover,
+.nav-link:focus-visible {
+  text-decoration: underline;
+  text-decoration-color: rgba(4,127,142,1);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+}
