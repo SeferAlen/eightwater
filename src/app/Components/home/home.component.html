@@ -4,7 +4,7 @@
   <!-- Post Content Column -->
   <div class="col-lg-16">
 
-    <div class="container" style="margin-top: 7%;">
+    <div class="container" style="margin-top: 7%; width: 100%; max-width: 100%;">
       <div class=" row align-items-start">
         <!-- Text (2/3 on md+, full width on mobile) -->
         <div class="col-12 col-md-8">
@@ -17,10 +17,13 @@
           </p>
 
           <!-- title + lines: no <br>, each line is a block span; tight line-height -->
-          <p style="margin-top: 1.5% !important;margin-top:5px; font-size:3rem;color:#000;margin:0;font-weight:bold;line-height:1.05;">
+          <p
+            style="margin-top: 1.5% !important;margin-top:5px; font-size:3rem;color:#000;margin:0;font-weight:bold;line-height:1.05;">
             <span style="display:block;margin-top: 15px;font-size:2.8rem;">{{ 'home.h22_part1' | translate }}</span>
-            <span style="display:block;color:rgba(4,127,142,1);font-size:2.6rem;">{{ 'home.h22_part2' | translate }}</span>
-            <span style="display:block;color:rgba(4,127,142,1);font-size:2.6rem;">{{ 'home.h22_part3' | translate }}</span>
+            <span style="display:block;color:rgba(4,127,142,1);font-size:2.6rem;">{{ 'home.h22_part2' | translate
+              }}</span>
+            <span style="display:block;color:rgba(4,127,142,1);font-size:2.6rem;">{{ 'home.h22_part3' | translate
+              }}</span>
 
             <!-- smaller lines below -->
             <span style="display:block;font-size:1rem;color:#000;margin-top: 2%;font-family: none;">
@@ -58,201 +61,308 @@
       </div>
     </div>
 
+    <br>
 
-    <!--Carousel Wrapper-->
-    <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
-      <!--Indicators-->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-2" data-slide-to="1"></li>
-        <li data-target="#carousel-example-2" data-slide-to="2"></li>
-      </ol>
-      <!--/.Indicators-->
-      <!--Slides-->
-      <div class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-          <div class="view">
-            <img class="d-block w-100 imgStyle" style=" width:100%; height: 400px !important;"
-              src="/assets/img/eightVoda4.jpg" alt="First slide">
-            <div class="mask rgba-black-light"></div>
-          </div>
-          <div class="carousel-caption">
-            <h3 class="h3-responsive">{{ 'home.pictureH1' | translate }}</h3>
-            <p>{{ 'home.pictureT1' | translate }}</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <!--Mask color-->
-          <div class="view">
-            <img class="d-block w-100 imgStyle" style=" width:100%; height: 400px !important;"
-              src="/assets/img/baby.jpg" alt="Second slide">
-            <div class="mask rgba-black-strong"></div>
-          </div>
-          <div class="carousel-caption">
-            <h3 class="h3-responsive">{{ 'home.pictureH2' | translate }}</h3>
-            <p>{{ 'home.pictureT2' | translate }}</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <!--Mask color-->
-          <div class="view">
-            <img class="d-block w-100 imgStyle" style=" width:100%; height: 400px !important;"
-              src="/assets/img/slide1.jpg" alt="Third slide">
-            <div class="mask rgba-black-slight"></div>
-          </div>
-          <div class="carousel-caption">
-            <h3 class="h3-responsive">{{ 'home.pictureH3' | translate }}</h3>
-            <p>{{ 'home.pictureT3' | translate }}</p>
-          </div>
-        </div>
-      </div>
-      <!--/.Slides-->
-      <!--Controls-->
-      <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-      <!--/.Controls-->
+    <div class="container" style="margin-top: 7%;">
+      <p style="
+        font-weight: 700; 
+        color: #000; 
+        font-size: 32px; 
+        line-height: 1.2; 
+        display: inline-block; 
+        padding-bottom: 6px; 
+        background-image: linear-gradient(rgb(4,127,142), rgb(4,127,142)); 
+        background-repeat: no-repeat; 
+        background-position: left bottom; 
+        background-size: 30% 4px;
+      ">
+        {{ 'home.h26_part1' | translate }}
+      </p>
+      <br>
+      <ul class="product-grid">
+        <li class="card">
+          <img src="assets/img/eightVoda6.jpg" alt="Denim Jeans">
+          <h1 style="color: #000; font-weight: bold;">{{ 'home.h26_part21' | translate }}</h1>
+          <p class="desc">{{ 'home.h26_part22' | translate }}</p>
+        </li>
+
+        <li class="card">
+          <img src="assets/img/eightVoda7.jpg" alt="Denim Jeans">
+          <h1 style="color: #000; font-weight: bold;">{{ 'home.h26_part31' | translate }}</h1>
+          <p class="desc">{{ 'home.h26_part32' | translate }}</p>
+        </li>
+
+        <li class="card">
+          <img src="assets/img/milenium.jpg" alt="Denim Jeans">
+          <h1 style="color: #000; font-weight: bold;">{{ 'home.h26_part41' | translate }}</h1>
+          <p class="desc">{{ 'home.h26_part42' | translate }}</p>
+        </li>
+
+        <li class="card">
+          <img src="assets/img/gazirana.jpg" alt="Denim Jeans">
+          <h1 style="color: #000; font-weight: bold;">{{ 'home.h26_part51' | translate }}</h1>
+          <p class="desc">{{ 'home.h26_part52' | translate }}</p>
+        </li>
+      </ul>
     </div>
-    <!--/.Carousel Wrapper-->
 
     <hr>
 
     <article class="home-article greetings center" style="margin-bottom: 5%;">
+      <style>
+        /* Left-align tabs & remove default borders */
+        #tabbedArticle {
+          border-bottom: none !important;
+          justify-content: flex-start;
+        }
+
+        #tabbedArticle .nav-link {
+          border: none !important;
+          background: none !important;
+          color: #000 !important;
+          font-weight: 700 !important;
+          /* black + bold for all tabs */
+        }
+
+        /* Underline for the currently selected tab */
+        #tabbedArticle .nav-link.active,
+        #tabbedArticle .nav-link[aria-selected="true"] {
+          border-bottom: 3px solid rgb(4, 127, 142) !important;
+        }
+
+        /* No borders on the content area */
+        #tabbedArticleContent {
+          border: none !important;
+          padding-left: 0;
+          padding-right: 0;
+        }
+      </style>
+
+      <p style="
+        font-weight: 700; 
+        color: #000; 
+        font-size: 32px; 
+        line-height: 1.2; 
+        display: inline-block; 
+        padding-bottom: 6px; 
+        background-image: linear-gradient(rgb(4,127,142), rgb(4,127,142)); 
+        background-repeat: no-repeat; 
+        background-position: left bottom; 
+        background-size: 30% 4px;
+      ">
+        {{ 'home.tabHeader' | translate }}</p>
+
       <!-- Tabs navigation -->
-      <ul class="nav nav-tabs justify-content-center" id="tabbedArticle" role="tablist">
+      <ul class="nav nav-tabs" id="tabbedArticle" role="tablist" style="display:flex;">
         <li class="nav-item">
           <a class="nav-link active" id="overview-tab" data-toggle="tab" href="#overview" role="tab"
             aria-controls="overview" aria-selected="true">
-            {{ 'home.tab1' | translate }}
+            {{ 'home.tab11' | translate }}
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" id="features-tab" data-toggle="tab" href="#features" role="tab" aria-controls="features"
             aria-selected="false">
-            {{ 'home.tab2' | translate }}
+            {{ 'home.tab22' | translate }}
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" id="gallery-tab" data-toggle="tab" href="#gallery" role="tab" aria-controls="gallery"
             aria-selected="false">
-            {{ 'home.tab3' | translate }}
+            {{ 'home.tab33' | translate }}
           </a>
         </li>
       </ul>
 
       <!-- Tabs content -->
-      <div class="tab-content p-3 border border-top-0" id="tabbedArticleContent">
-        <!-- Tab 1 -->
+      <div class="tab-content p-3" id="tabbedArticleContent" style="align-items: top; padding-left:0; padding-right:0;">
+
+        <!-- Tab 1: Overview -->
         <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
-          <blockquote class="blockquote">
-            <p class="mb-0" animateIn>{{ 'home.text6' | translate }}</p>
-          </blockquote>
-          <p class="mb-0 waterBackGround" style="color: black;">
-            {{ 'home.text7' | translate }}
-            <a routerLink="/Products" style="color: black; text-decoration: underline;">
-              {{ 'home.products' | translate }}
-            </a>
-          </p>
-          <img class="productImage imgStyle mt-3" style="width: 100%; height: auto;" src="assets/img/eightVoda3.jpg">
+          <article class="home-article greetings center"
+            style="margin-bottom:5%; background:#ffffff; color:#000000; padding:20px;">
+
+            <div class="row">
+
+              <!-- Left: Image -->
+              <div class="col-md-6" style="margin-bottom:16px;">
+                <img src="assets/img/package1.jpg" alt="Product package" class="img-fluid"
+                  style="width:100%; height:auto; display:block; border-radius:8px;">
+              </div>
+
+              <!-- Right: Text -->
+              <div class="col-md-6" style="margin-bottom:16px;">
+                <h2 style="margin:0 0 10px 0; font-weight:700;">{{ 'home.headert1' | translate }}</h2>
+
+                <p style="margin:0 0 12px 0;">
+                  {{ 'home.text9' | translate }}
+                </p>
+
+                <ul style="margin:0 0 0 0; padding:0; list-style:none;">
+                  <li style="display:flex; align-items:flex-start; gap:8px; margin:4px 0;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" style="flex:0 0 16px; margin-top:2px;">
+                      <path d="M4 12l5 5L20 6" fill="none" stroke="rgb(4,127,142)" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span>{{ 'home.bullet1' | translate }}</span>
+                  </li>
+
+                  <li style="display:flex; align-items:flex-start; gap:8px; margin:4px 0;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" style="flex:0 0 16px; margin-top:2px;">
+                      <path d="M4 12l5 5L20 6" fill="none" stroke="rgb(4,127,142)" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span>{{ 'home.bullet2' | translate }}</span>
+                  </li>
+
+                  <li style="display:flex; align-items:flex-start; gap:8px; margin:4px 0;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" style="flex:0 0 16px; margin-top:2px;">
+                      <path d="M4 12l5 5L20 6" fill="none" stroke="rgb(4,127,142)" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span>{{ 'home.bullet3' | translate }}</span>
+                  </li>
+
+                  <li style="display:flex; align-items:flex-start; gap:8px; margin:4px 0;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" style="flex:0 0 16px; margin-top:2px;">
+                      <path d="M4 12l5 5L20 6" fill="none" stroke="rgb(4,127,142)" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span>{{ 'home.bullet4' | translate }}</span>
+                  </li>
+
+                  <li style="display:flex; align-items:flex-start; gap:8px; margin:4px 0;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" style="flex:0 0 16px; margin-top:2px;">
+                      <path d="M4 12l5 5L20 6" fill="none" stroke="rgb(4,127,142)" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span>{{ 'home.bullet5' | translate }}</span>
+                  </li>
+
+                  <li style="display:flex; align-items:flex-start; gap:8px; margin:4px 0;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" style="flex:0 0 16px; margin-top:2px;">
+                      <path d="M4 12l5 5L20 6" fill="none" stroke="rgb(4,127,142)" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span>{{ 'home.bullet6' | translate }}</span>
+                  </li>
+
+                  <li style="display:flex; align-items:flex-start; gap:8px; margin:4px 0;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" style="flex:0 0 16px; margin-top:2px;">
+                      <path d="M4 12l5 5L20 6" fill="none" stroke="rgb(4,127,142)" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span>{{ 'home.bullet7' | translate }}</span>
+                  </li>
+
+                  <li style="display:flex; align-items:flex-start; gap:8px; margin:4px 0;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" style="flex:0 0 16px; margin-top:2px;">
+                      <path d="M4 12l5 5L20 6" fill="none" stroke="rgb(4,127,142)" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span>{{ 'home.bullet8' | translate }}</span>
+                  </li>
+                </ul>
+
+              </div>
+
+            </div>
+          </article>
         </div>
 
-        <!-- Tab 2 -->
-        <div class="tab-pane fade" id="features" role="tabpanel" aria-labelledby="features-tab">
-          <p>{{ 'home.tab2content' | translate }}</p>
-          <img class="img-fluid mt-3" src="assets/img/slide1.jpg" alt="Feature image">
+
+        <!-- Tab 2: Features -->
+        <div class="tab-pane fade show" id="features" role="tabpanel" aria-labelledby="features-tab">
+          <article class="home-article greetings"
+            style="margin-bottom:5%; background:#ffffff; color:#000000; padding:20px;">
+
+<div class="row" style="display:flex; align-items:flex-start !important;">
+
+              <!-- Left: Image -->
+              <div class="col-md-6" style="margin-bottom:16px;">
+                <img src="assets/img/lok2.jpg" alt="Feature image" class="img-fluid"
+                  style="width:100%; height:auto; display:block; border-radius:8px;">
+              </div>
+
+              <!-- Right: Text (no bullet points) -->
+              <div class="col-md-6" style="margin-bottom:16px;">
+                <h2 style="margin:0 0 10px 0; font-weight:700;">{{ 'home.aqua' | translate }}</h2>
+                <br>
+                <p style="margin:0 0 12px 0;">
+                  {{ 'home.text71' | translate }}
+                </p>
+                <p style="margin:0 0 12px 0;">
+                  <a routerLink="/About" style="display:inline-block; margin-top:8px; background:rgb(4,27,142); color:#fff;
+            border:1px solid rgba(4,127,142,1); padding:.6rem 1.1rem; border-radius:.5rem;
+            font-weight:600; text-decoration:none;">
+                    {{ 'home.products' | translate }}
+                  </a>
+                </p>
+
+
+                <p style="margin:0;">
+                </p>
+              </div>
+
+            </div>
+          </article>
         </div>
 
-        <!-- Tab 3 -->
+
+        <!-- Tab 3: Gallery (same layout as Tab 1) -->
         <div class="tab-pane fade" id="gallery" role="tabpanel" aria-labelledby="gallery-tab">
-          <p>{{ 'home.tab3content' | translate }}</p>
-          <img class="img-fluid mt-3" src="assets/img/eightVoda4.jpg" alt="Gallery image">
+          <article class="home-article greetings center"
+            style="margin-bottom:5%; background:#ffffff; color:#000000; padding:20px;">
+
+<div class="row" style="display:flex; align-items:flex-start !important;">
+
+              <!-- Left: Image -->
+              <div class="col-md-6" style="margin-bottom:16px;">
+                <img src="assets/img/eightVoda3.jpg" alt="Gallery image" class="img-fluid"
+                  style="width:100%; height:auto; display:block; border-radius:8px;">
+              </div>
+
+              <!-- Right: Text + Bullets -->
+              <div class="col-md-6" style="margin-bottom:16px;">
+                <h2 style="margin:0 0 10px 0; font-weight:700;">{{ 'home.tab331' | translate }}</h2>
+
+                <p style="margin:0 0 12px 0;">
+                  {{ 'home.text331' | translate }}
+                </p>
+
+                <ul style="margin:0; padding:0; list-style:none;">
+                  <li style="display:flex; align-items:flex-start; gap:8px; margin:4px 0;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" style="flex:0 0 16px; margin-top:2px;">
+                      <path d="M4 12l5 5L20 6" fill="none" stroke="rgb(4,127,142)" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span>{{ 'home.bullet31' | translate }}</span>
+                  </li>
+                  <li style="display:flex; align-items:flex-start; gap:8px; margin:4px 0;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" style="flex:0 0 16px; margin-top:2px;">
+                      <path d="M4 12l5 5L20 6" fill="none" stroke="rgb(4,127,142)" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span>{{ 'home.bullet32' | translate }}</span>
+                  </li>
+                  <li style="display:flex; align-items:flex-start; gap:8px; margin:4px 0;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" style="flex:0 0 16px; margin-top:2px;">
+                      <path d="M4 12l5 5L20 6" fill="none" stroke="rgb(4,127,142)" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span>{{ 'home.bullet33' | translate }}</span>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+          </article>
         </div>
+
+
       </div>
     </article>
 
-
-
-    <hr>
-
-    <article class="home-article  greetings center aqua" style="margin-bottom: 5%;">
-      <blockquote class="blockquote">
-        <p class="mb-0" animateIn>Aqua Valley</p>
-      </blockquote>
-      <!-- Post Content -->
-      <p class="mb-0 waterBackGround" style="color: white;">{{ 'home.text14' | translate }} <a routerLink="/About"
-          style="color: white; text-decoration: underline;">{{ 'home.about' | translate }}</a></p>
-      <img class="productImage imgStyle" style="width: 100%; height: 250px; margin-top: 3%;" src="assets/img/lok2.jpg">
-    </article>
-
-    <hr>
-
-    <article class="home-article  greetings center" style="margin-bottom: 5%; background: #047F8E; color: white;">
-      <blockquote class="blockquote">
-        <p class="mb-0" animateIn>{{ 'home.text8' | translate }}</p>
-      </blockquote>
-      <!-- Post Content -->
-      <p class="mb-0 waterBackGround" style="color: white;">{{ 'home.text9' | translate }}</p>
-      <img style="width: 100%; margin-top: 5%; opacity: 0.9;" src="/assets/img/giphy.webp">
-    </article>
-
-    <hr>
-
-    <article class="home-article greetings center">
-      <blockquote class="blockquote">
-        <p class="mb-0" animateIn>{{ 'home.text0' | translate }}</p>
-      </blockquote>
-
-      <hr>
-
-      <!-- Post Content -->
-      <p class="mb-0 backGround" style="color: black;">{{ 'home.text1' | translate }}</p>
-
-      <hr>
-      <img class="productImage" style="width: 100%; height: auto; margin-top: 4%;" src="assets/img/eightVoda5.jpg">
-      <hr>
-      <p class="mb-0 newLine gradient" style="color: white; padding: 10px;"><img
-          class="imgStyle sideImg productImage row" style="width: 100%; height: auto; margin-top: 10%;"
-          src="assets/img/eightVoda2.jpg"> {{ 'home.text5' | translate
-        }}{{ 'home.text4' | translate }}</p>
-    </article>
-
-    <article class="home-article  greetings center" style="margin-bottom: 5%;">
-      <blockquote class="blockquote">
-        <p class="mb-0" animateIn>{{ 'home.text12' | translate }}</p>
-      </blockquote>
-      <!-- Post Content -->
-      <p class="mb-0 waterBackGround" style="color: black;">{{ 'home.text13' | translate }}</p>
-      <img class="productImage" style="width: 100%; height: 150px; margin-top: 10%;" src="assets/img/water.jpg">
-    </article>
-
-    <article class="home-article greetings center" style="margin-bottom: 5%;">
-      <h2 class="text-center" style="margin-top: 2rem;">{{ 'home.mapTitle' | translate }}</h2>
-      <p class="text-center">{{ 'home.mapDescription' | translate }}</p>
-
-      <div style="
-      position: relative;
-      width: 100%;
-      padding-bottom: 56.25%; /* 16:9 aspect ratio */
-      height: 0;
-      min-height: 300px;
-      overflow: hidden;
-      margin-top: 2rem;
-      margin-bottom: 3rem;">
-        <iframe src="https://www.google.com/maps/d/embed?mid=1Yiw753Z6q4bw69DVWsEVkcGone-x6ZY&ehbc=2E312F" style="
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;" allowfullscreen loading="lazy">
-        </iframe>
-      </div>
-    </article>
 
 
   </div>

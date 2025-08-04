@@ -4,12 +4,6 @@
 padding: 2em 1.5em 1em;
 margin-top: 1em;
 margin-bottom: 0.8em;
-border: 1px solid
-#DFE1E6;
-border-radius: 4px;
--webkit-box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
--moz-box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
-box-shadow: 4px 4px 5px -4px rgba(0,0,0,0.75);
 }
 
 .newLine {
@@ -67,4 +61,48 @@ p.lead {
     background: url('/assets/img/waterOpacity.jpg');
     background-position: bottom; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.product-grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 per row */
+  gap: 1rem; /* space between cards */
+}
+
+.card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  width: 100%;
+  height: 220px;         /* adjust as you like */
+  object-fit: cover;     /* keeps image nicely cropped */
+  display: block;
+}
+
+.card h1 {
+  font-size: 1.125rem;
+  margin: 0.75rem 1rem 0.25rem;
+}
+
+.card .desc {
+  color: #111;
+  margin: 0 1rem 1rem;
+}
+
+/* Responsive: 2 per row on tablets, 1 per row on phones */
+@media (max-width: 1024px) {
+  .product-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .product-grid { grid-template-columns: 1fr; }
 }
