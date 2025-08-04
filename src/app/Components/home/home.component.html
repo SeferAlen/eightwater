@@ -4,7 +4,7 @@
   <!-- Post Content Column -->
   <div class="col-lg-16">
 
-    <div class="container" style="margin-top: 7%; width: 100%; max-width: 100%;">
+    <div class="container" style="margin-top: 5%; width: 100%; max-width: 100%;">
       <div class=" row align-items-start">
         <!-- Text (2/3 on md+, full width on mobile) -->
         <div class="col-12 col-md-8">
@@ -108,7 +108,7 @@
 
     <hr>
 
-    <article class="home-article greetings center" style="margin-bottom: 5%;">
+    <article class="home-article greetings center">
       <style>
         /* Left-align tabs & remove default borders */
         #tabbedArticle {
@@ -179,6 +179,102 @@
 
         <!-- Tab 1: Overview -->
         <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+          <article class="home-article greetings center"
+            style="margin-bottom:5%; background:#ffffff; color:#000000; padding:20px;">
+
+            <div class="row" style="display:flex; align-items:flex-start !important;">
+
+              <!-- Left: Image -->
+              <div class="col-md-6" style="margin-bottom:16px;">
+                <img src="assets/img/eightVoda3.jpg" alt="Gallery image" class="img-fluid"
+                  style="width:100%; height:auto; display:block; border-radius:8px;">
+              </div>
+
+              <!-- Right: Text + Bullets -->
+              <div class="col-md-6" style="margin-bottom:16px;">
+                <h2 style="margin:0 0 10px 0; font-weight:700;">{{ 'home.tab331' | translate }}</h2>
+
+                <p style="margin:0 0 12px 0;">
+                  {{ 'home.text331' | translate }}
+                </p>
+
+                <ul style="margin:0; padding:0; list-style:none;">
+                  <li style="display:flex; align-items:flex-start; gap:8px; margin:4px 0;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" style="flex:0 0 16px; margin-top:2px;">
+                      <path d="M4 12l5 5L20 6" fill="none" stroke="rgb(4,127,142)" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span>{{ 'home.bullet31' | translate }}</span>
+                  </li>
+                  <li style="display:flex; align-items:flex-start; gap:8px; margin:4px 0;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" style="flex:0 0 16px; margin-top:2px;">
+                      <path d="M4 12l5 5L20 6" fill="none" stroke="rgb(4,127,142)" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span>{{ 'home.bullet32' | translate }}</span>
+                  </li>
+                  <li style="display:flex; align-items:flex-start; gap:8px; margin:4px 0;">
+                    <svg width="16" height="16" viewBox="0 0 24 24" style="flex:0 0 16px; margin-top:2px;">
+                      <path d="M4 12l5 5L20 6" fill="none" stroke="rgb(4,127,142)" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <span>{{ 'home.bullet33' | translate }}</span>
+                  </li>
+                </ul>
+                <p style="margin:0 0 12px 0;">
+                  <a routerLink="/About" style="display:inline-block; margin-top:8px; background:rgba(4,127,142,1); color:#fff;
+            border:1px solid rgba(4,127,142,1); padding:.6rem 1.1rem; border-radius:.5rem;
+            font-weight:600; text-decoration:none;">
+                    {{ 'home.map' | translate }}
+                  </a>
+                </p>
+              </div>
+
+            </div>
+          </article>
+        </div>
+
+
+        <!-- Tab 2: Features -->
+        <div class="tab-pane fade show" id="features" role="tabpanel" aria-labelledby="features-tab">
+          <article class="home-article greetings"
+            style="margin-bottom:5%; background:#ffffff; color:#000000; padding:20px;">
+
+            <div class="row" style="display:flex; align-items:flex-start !important;">
+
+              <!-- Left: Image -->
+              <div class="col-md-6" style="margin-bottom:16px;">
+                <img src="assets/img/lok2.jpg" alt="Feature image" class="img-fluid"
+                  style="width:100%; height:auto; display:block; border-radius:8px;">
+              </div>
+
+              <!-- Right: Text (no bullet points) -->
+              <div class="col-md-6" style="margin-bottom:16px;">
+                <h2 style="margin:0 0 10px 0; font-weight:700;">{{ 'home.aqua' | translate }}</h2>
+                <br>
+                <p style="margin:0 0 12px 0;">
+                  {{ 'home.text71' | translate }}
+                </p>
+                <p style="margin:0 0 12px 0;">
+                  <a routerLink="/About" style="display:inline-block; margin-top:8px; background:rgb(4,27,142); color:#fff;
+            border:1px solid rgba(4,127,142,1); padding:.6rem 1.1rem; border-radius:.5rem;
+            font-weight:600; text-decoration:none;">
+                    {{ 'home.products' | translate }}
+                  </a>
+                </p>
+
+
+                <p style="margin:0;">
+                </p>
+              </div>
+
+            </div>
+          </article>
+        </div>
+
+
+        <!-- Tab 3: Gallery (same layout as Tab 1) -->
+        <div class="tab-pane fade" id="gallery" role="tabpanel" aria-labelledby="gallery-tab">
           <article class="home-article greetings center"
             style="margin-bottom:5%; background:#ffffff; color:#000000; padding:20px;">
 
@@ -271,97 +367,154 @@
         </div>
 
 
-        <!-- Tab 2: Features -->
-        <div class="tab-pane fade show" id="features" role="tabpanel" aria-labelledby="features-tab">
-          <article class="home-article greetings"
-            style="margin-bottom:5%; background:#ffffff; color:#000000; padding:20px;">
-
-<div class="row" style="display:flex; align-items:flex-start !important;">
-
-              <!-- Left: Image -->
-              <div class="col-md-6" style="margin-bottom:16px;">
-                <img src="assets/img/lok2.jpg" alt="Feature image" class="img-fluid"
-                  style="width:100%; height:auto; display:block; border-radius:8px;">
-              </div>
-
-              <!-- Right: Text (no bullet points) -->
-              <div class="col-md-6" style="margin-bottom:16px;">
-                <h2 style="margin:0 0 10px 0; font-weight:700;">{{ 'home.aqua' | translate }}</h2>
-                <br>
-                <p style="margin:0 0 12px 0;">
-                  {{ 'home.text71' | translate }}
-                </p>
-                <p style="margin:0 0 12px 0;">
-                  <a routerLink="/About" style="display:inline-block; margin-top:8px; background:rgb(4,27,142); color:#fff;
-            border:1px solid rgba(4,127,142,1); padding:.6rem 1.1rem; border-radius:.5rem;
-            font-weight:600; text-decoration:none;">
-                    {{ 'home.products' | translate }}
-                  </a>
-                </p>
-
-
-                <p style="margin:0;">
-                </p>
-              </div>
-
-            </div>
-          </article>
-        </div>
-
-
-        <!-- Tab 3: Gallery (same layout as Tab 1) -->
-        <div class="tab-pane fade" id="gallery" role="tabpanel" aria-labelledby="gallery-tab">
-          <article class="home-article greetings center"
-            style="margin-bottom:5%; background:#ffffff; color:#000000; padding:20px;">
-
-<div class="row" style="display:flex; align-items:flex-start !important;">
-
-              <!-- Left: Image -->
-              <div class="col-md-6" style="margin-bottom:16px;">
-                <img src="assets/img/eightVoda3.jpg" alt="Gallery image" class="img-fluid"
-                  style="width:100%; height:auto; display:block; border-radius:8px;">
-              </div>
-
-              <!-- Right: Text + Bullets -->
-              <div class="col-md-6" style="margin-bottom:16px;">
-                <h2 style="margin:0 0 10px 0; font-weight:700;">{{ 'home.tab331' | translate }}</h2>
-
-                <p style="margin:0 0 12px 0;">
-                  {{ 'home.text331' | translate }}
-                </p>
-
-                <ul style="margin:0; padding:0; list-style:none;">
-                  <li style="display:flex; align-items:flex-start; gap:8px; margin:4px 0;">
-                    <svg width="16" height="16" viewBox="0 0 24 24" style="flex:0 0 16px; margin-top:2px;">
-                      <path d="M4 12l5 5L20 6" fill="none" stroke="rgb(4,127,142)" stroke-width="3"
-                        stroke-linecap="round" stroke-linejoin="round"></path>
-                    </svg>
-                    <span>{{ 'home.bullet31' | translate }}</span>
-                  </li>
-                  <li style="display:flex; align-items:flex-start; gap:8px; margin:4px 0;">
-                    <svg width="16" height="16" viewBox="0 0 24 24" style="flex:0 0 16px; margin-top:2px;">
-                      <path d="M4 12l5 5L20 6" fill="none" stroke="rgb(4,127,142)" stroke-width="3"
-                        stroke-linecap="round" stroke-linejoin="round"></path>
-                    </svg>
-                    <span>{{ 'home.bullet32' | translate }}</span>
-                  </li>
-                  <li style="display:flex; align-items:flex-start; gap:8px; margin:4px 0;">
-                    <svg width="16" height="16" viewBox="0 0 24 24" style="flex:0 0 16px; margin-top:2px;">
-                      <path d="M4 12l5 5L20 6" fill="none" stroke="rgb(4,127,142)" stroke-width="3"
-                        stroke-linecap="round" stroke-linejoin="round"></path>
-                    </svg>
-                    <span>{{ 'home.bullet33' | translate }}</span>
-                  </li>
-                </ul>
-              </div>
-
-            </div>
-          </article>
-        </div>
-
-
       </div>
     </article>
+
+    <div class="container">
+
+      <!-- Section title with 30% underline -->
+      <p style="
+    font-weight: 700; color: #000; font-size: 32px; line-height: 1.2;
+    display: inline-block; padding-bottom: 6px;
+    background-image: linear-gradient(rgb(4,127,142), rgb(4,127,142));
+    background-repeat: no-repeat; background-position: left bottom; background-size: 30% 4px;">
+        {{ 'home.h27_part1' | translate }}
+      </p>
+
+      <br>
+
+      <!-- Cards grid (Bootstrap responsive columns) -->
+      <ul class="row" style="list-style:none; margin:0; padding:0;">
+
+        <!-- 1. Drop of water -->
+        <li class="col-12 col-sm-6 col-lg-4" style="padding:8px;">
+          <div
+            style="background:#fff; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.08); padding:16px; height:100%; display:flex; flex-direction:column;">
+            <div style="width:40px; height:40px; margin-bottom:8px;">
+              <svg viewBox="0 0 24 24" style="width:100%; height:100%; display:block;">
+                <path d="M12 2C12 2 6 9 6 13.5A6 6 0 0 0 18 13.5C18 9 12 2 12 2Z" fill="rgb(4,127,142)"></path>
+              </svg>
+            </div>
+            <h1 style="color:#000; font-weight:700; font-size:1.125rem; margin:4px 0 6px;">
+              {{ 'home.h27_part12h' | translate }}
+            </h1>
+            <p style="color:#111; margin:0;">
+              {{ 'home.h27_part12t' | translate }}
+            </p>
+          </div>
+        </li>
+
+<!-- 2. Recycling (three arrows) -->
+<li class="col-12 col-sm-6 col-lg-4" style="padding:8px;">
+  <div style="background:#fff; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.08); padding:16px; height:100%; display:flex; flex-direction:column;">
+    <div style="width:40px; height:40px; margin-bottom:8px; display:flex; align-items:center; justify-content:center;">
+      <i class="fas fa-recycle" style="font-size:32px; color:rgb(4,127,142);"></i>
+    </div>
+    <h1 style="color:#000; font-weight:700; font-size:1.125rem; margin:4px 0 6px;">
+      {{ 'home.h27_part22h' | translate }}
+    </h1>
+    <p style="color:#111; margin:0;">
+      {{ 'home.h27_part22t' | translate }}
+    </p>
+  </div>
+</li>
+
+
+        <!-- 3. Lab (Erlenmeyer flask, outline) -->
+        <li class="col-12 col-sm-6 col-lg-4" style="padding:8px;">
+          <div
+            style="background:#fff; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.08); padding:16px; height:100%; display:flex; flex-direction:column;">
+            <div style="width:40px; height:40px; margin-bottom:8px;">
+              <svg viewBox="0 0 24 24" style="width:100%; height:100%; display:block;">
+                <path d="M10 2h4v2h-4V2Z" fill="rgb(4,127,142)" />
+                <path d="M10 4v4l-4.8 8.2A3.5 3.5 0 0 0 8.1 21h7.8a3.5 3.5 0 0 0 2.9-4.8L14 8V4" fill="none"
+                  stroke="rgb(4,127,142)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+                <path d="M8.5 14.5c1.5-.8 3.5-.8 5 0" fill="none" stroke="rgb(4,127,142)" stroke-width="2"
+                  stroke-linecap="round" />
+              </svg>
+            </div>
+            <h1 style="color:#000; font-weight:700; font-size:1.125rem; margin:4px 0 6px;">
+              {{ 'home.h27_part33h' | translate }}
+            </h1>
+            <p style="color:#111; margin:0;">
+              {{ 'home.h27_part33t' | translate }}
+            </p>
+          </div>
+        </li>
+
+        <!-- 4. Tag (outline) -->
+        <li class="col-12 col-sm-6 col-lg-4" style="padding:8px;">
+          <div
+            style="background:#fff; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.08); padding:16px; height:100%; display:flex; flex-direction:column;">
+            <div style="width:40px; height:40px; margin-bottom:8px;">
+              <svg viewBox="0 0 24 24" style="width:100%; height:100%; display:block;">
+                <path d="M21 11l-8-8H5a2 2 0 0 0-2 2v8l8 8 10-10Z" fill="none" stroke="rgb(4,127,142)" stroke-width="2"
+                  stroke-linejoin="round"></path>
+                <circle cx="7.5" cy="7.5" r="1.8" fill="none" stroke="rgb(4,127,142)" stroke-width="2"></circle>
+              </svg>
+            </div>
+            <h1 style="color:#000; font-weight:700; font-size:1.125rem; margin:4px 0 6px;">
+              {{ 'home.h27_part44h' | translate }}
+            </h1>
+            <p style="color:#111; margin:0;">
+              {{ 'home.h27_part44t' | translate }}
+            </p>
+          </div>
+        </li>
+
+        <!-- 5. Globe (outline) -->
+        <li class="col-12 col-sm-6 col-lg-4" style="padding:8px;">
+          <div
+            style="background:#fff; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.08); padding:16px; height:100%; display:flex; flex-direction:column;">
+            <div style="width:40px; height:40px; margin-bottom:8px;">
+              <svg viewBox="0 0 24 24" style="width:100%; height:100%; display:block;">
+                <circle cx="12" cy="12" r="9" fill="none" stroke="rgb(4,127,142)" stroke-width="2" />
+                <path d="M3 12h18" fill="none" stroke="rgb(4,127,142)" stroke-width="2" stroke-linecap="round" />
+                <path d="M4.5 8.5c2.5 1.3 12.5 1.3 15 0" fill="none" stroke="rgb(4,127,142)" stroke-width="1.5"
+                  stroke-linecap="round" />
+                <path d="M4.5 15.5c2.5-1.3 12.5-1.3 15 0" fill="none" stroke="rgb(4,127,142)" stroke-width="1.5"
+                  stroke-linecap="round" />
+                <path d="M12 3c3 3 3 15 0 18" fill="none" stroke="rgb(4,127,142)" stroke-width="2"
+                  stroke-linecap="round" />
+                <path d="M12 3c-3 3-3 15 0 18" fill="none" stroke="rgb(4,127,142)" stroke-width="2"
+                  stroke-linecap="round" />
+              </svg>
+            </div>
+            <h1 style="color:#000; font-weight:700; font-size:1.125rem; margin:4px 0 6px;">
+              {{ 'home.h27_part55h' | translate }}
+            </h1>
+            <p style="color:#111; margin:0;">
+              {{ 'home.h27_part55t' | translate }}
+            </p>
+          </div>
+        </li>
+
+        <!-- 6. Truck (outline) -->
+        <li class="col-12 col-sm-6 col-lg-4" style="padding:8px;">
+          <div
+            style="background:#fff; border-radius:12px; box-shadow:0 6px 16px rgba(0,0,0,0.08); padding:16px; height:100%; display:flex; flex-direction:column;">
+            <div style="width:40px; height:40px; margin-bottom:8px;">
+              <svg viewBox="0 0 24 24" style="width:100%; height:100%; display:block;">
+                <rect x="3" y="7" width="9" height="7" rx="1" ry="1" fill="none" stroke="rgb(4,127,142)"
+                  stroke-width="2" />
+                <path d="M12 10h4l3 3v1h-7v-4Z" fill="none" stroke="rgb(4,127,142)" stroke-width="2"
+                  stroke-linejoin="round" />
+                <path d="M3 17h16" fill="none" stroke="rgb(4,127,142)" stroke-width="2" stroke-linecap="round" />
+                <circle cx="7" cy="18" r="2" fill="none" stroke="rgb(4,127,142)" stroke-width="2" />
+                <circle cx="17" cy="18" r="2" fill="none" stroke="rgb(4,127,142)" stroke-width="2" />
+              </svg>
+            </div>
+            <h1 style="color:#000; font-weight:700; font-size:1.125rem; margin:4px 0 6px;">
+              {{ 'home.h27_part66h' | translate }}
+            </h1>
+            <p style="color:#111; margin:0;">
+              {{ 'home.h27_part66t' | translate }}
+            </p>
+          </div>
+        </li>
+
+      </ul>
+    </div>
 
 
 
