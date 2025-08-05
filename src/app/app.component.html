@@ -12,10 +12,10 @@
 
 </head>
 
-<body>
+<body style="background: linear-gradient(to bottom, rgb(242, 253, 255) 0%, rgb(242, 253, 255) 20%, white 30%, white 100%);">
   <app-top-navbar [data]="languageList" (langChangeEmit)="changeLanguageHander($event)"></app-top-navbar>
 
-  <router-outlet></router-outlet>
+  <router-outlet ></router-outlet>
 
   <app-footer></app-footer>
 

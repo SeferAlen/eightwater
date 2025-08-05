@@ -7,6 +7,9 @@
         "language": "Jezik",
         "from": "iz"
     },
+    "footer": {
+        "social": "Pratite nas"
+    },
     "home": {
         "aqua": "Aqua valley",
         "tab1": "Overview",
@@ -46,6 +49,21 @@
         "h27_part55t": "Naša voda putuje širom Evrope i Bliskog istoka. Ispunjavamo sve međunarodne standarde kvalitete",
         "h27_part66h": "Pouzdana logistika",
         "h27_part66t": "Brza i sigurna dostava uz mogučnost praćenja pošiljke. Poštujemo dogovorene rokove",
+        "h28_part1": "Kvaliteta i certifikati",
+        "h28_part12h": "ISO 9001:2015",
+        "h28_part12t": "Certifikat za upravljanje kvalitetom koji potvrđuje našu posvećenost najvišim standardima",
+        "h28_part22h": "HACCP",
+        "h28_part22t": "Sistem za osiguranje zdravstvene ispravnosti proizvoda kroz cijeli lanac proizvodnje",
+        "h28_part33h": "Laboratorijski rezultati",
+        "h28_part33t": "Redovita analiza vode od strane nezavisnih laboratorija potvrđuje vrhunsku kvalitetu",
+        "h29_part1": "Distribucije i partnerstva",
+        "h29_part12h": "Globalna prisutnost",
+        "h29_part12t": "Eight voda se distribuira diljem Balkana, Evropske Unije i Ujediljenih Arapskih Emirata. Naša mreža partnera raste svake godine",
+        "h29_part22h": "Trenutne lokacije distribucije",
+        "h29_part22t": "Bosna i Hercegovina  Hrvatska  Srbija  Slovenija  Njemačka  Austrija  UEA",
+        "h29_part33h": "Postani distributer",
+        "h29_part33t": "Želiš našu vodu na svom tržištu? Postani dio naše rastuće mreže partnera.",
+        "h30_part1": "Pratite nas na Instagramu",
         "tab11": "Poslovanje",
         "tab22": "Izvor",
         "tab33": "Proizvod",
