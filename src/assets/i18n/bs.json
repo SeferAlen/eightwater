@@ -108,7 +108,8 @@
         "pictureH3": "Svugdje",
         "pictureT1": "Svježa i zdrava voda",
         "pictureT2": "Proizvedeno u zelenom raju",
-        "pictureT3": "Oko svijeta"
+        "pictureT3": "Oko svijeta",
+        "instagram": "Pratite nas na Instagramu"
     },
     "about": {
         "descrH1": "IZ SRCA PRIRODE",
@@ -120,7 +121,7 @@
         "h25_part1": "Naša lokacija",
         "descrT2": "Ako želite vidjeti više ovog zelenog svijeta pogledajte ove slike",
         "descrH3": "Izvor vode 'Husić Vrelo' Duboka, Bugojno",
-        "descrT3": "Lokacija izvora Husić vode jeste unutar Bugojanske općine, SBK -  Srednjobosanski kanton, federacija BiH i nalazi se 6 km udaljenosti od grada Bugojno. Spomenuti izvor se, u hidrogeološkom smislu, preklapa krška područja. Specifičnost ovog izvora jeste mehanizam izvora, tj. pojava vode na samom izvoru, koja se može piti sa samog izvora, bez potrebe za dodatnim tehnološkim procesima. Slivno područje je nenaseljeno, tako da je pristup izvoru lagan, ali i okolnom području. U pogledu obilja, tj. količine protoka vode, zasad, testiranja su pokazala da je minimalan protok vode 211 litara po sekundi. Bude manjih oscilacija u zavisnosti od godišnjeg doba, što ipak dovodi do relativne stabilnosti izvora jer voda dolazi iz velikih dubina na što ne utječu količine vode iz atmosfere, koja se pojavljuje u večoj ili manjoj količini. Ovo znači da prosječan protok vode iz izvora prilično konstantan. Dalje, voda iz ovog izvora je visoke kvalitete u hemijskom i mikrobiološkom smislu, uzevši u obzir sljedeće: \n\n- sadržaj substanci u vidu, posebno nitrata koji se pronalaze u manjim koncentratima i nitrata čiji koncentrati su ispod limita studije, što vodu čini visoke kvalitete i adekvatne za piće,\n- voda koja sadrži minimalnu količinu hlora, sulfata, nitrata, fosfata, i organske materije je sadržana u zanemarivim koncentracijama,\n- sadržaj teških metala u vodi je jako mali, daleko ispod granice dozvoljenog,\n- iz pogleda prisustva patogenih mikroorganizama, voda je higijenski čista.\n\n Rezultati testiranja vode dosada su pokazali da za vrijeme stajanja nema hemijskih procesa, tj., promjena boje vode i pojave sedimenta, pa se može zaključiti da je voda stabilna i jako pogodna za flaširanje. Uzimajući u obzir sve navedeno, može se zaključiti da voda iz Husić vrela visoke kvalitete, stabilna su njena svojstva nakon flaširanja i da ispunjava sve uslove koji regulišu prirodne izvorske vode i zdravlje",
+        "descrT3": "Lokacija izvora vode Husića vrelo Duboka je u opštini Bugojno, SBK-Srednjobosanski kanton, Federacija BiH i udaljen je 6 km od grada Bugojno. Navedeni izvor je, u hidrogeološkom smislu preljev velikog kraškog kolektora i nalazi se u području kraških planinskih masiva.\n\nSpecifičnost ovog izvora je mehanizam izviranja, odnosno pojava vode na samom izvoru, tako da se voda može piti direktno sa izvora, bez ikakvih daljih tehnoloških procesa. Radi se o slivnom području koje je nenaseljeno, tako da je pristup veoma povoljan, kao i okolina samog vrela.\n\nU pogledu izdašnosti tj. količina proticaja vode, dosadašnja ispitivanja su pokazala da je minimalni proticaj vode oko 211 litara u sekundi. Uočena je neznatna promjena izdašnosti vode od zavisnosti godišnjeg doba, što govori da se radi relativnoj stabilnosti izvora odnosno da voda protiče iz većih dubina na koje nema značajnijeg uticaja atmosferske vode, koja se pojavljuje u većem ili manjem obimu. Znači da se može govoriti o prosječnom proticaju vode izvorišta od 200 litara u sekundi.\n\nNadalje, voda iz ovog izvora je visoke kvalitete u hemijskom i mikrobiološkom smislu, uzevši u obzir sljedeće: \n- sadržaj materija u vodi, posebno nitrata koji se nalaze u niskim koncentracijama i nitrita čije su koncentracije ispod granice istraživanja čine ovu vodu izuzetno kvalitetnom i pogodnom za piće\n- radi se o vodi koja sadrži minimalne količine klorida, sulfata, nitrita i fosfata, a organske materije su prisutne u zanemarljivim koncentracijama\n- sadržaj teških metala u ovoj vodi je veoma nizak, daleko niži od maksimalno dozvoljenih graničnih vrijednosti\n- sa stanovišta prisustva patogenih mikroorganizama voda je higijenski ispravna\n\n Dosadašnji rezultati ispitivanja vode su pokazala da sa vremenom stajanja vode nedolazi do hemijskih procesa, odnosno promjene boje vode i pojave taloga, tako da se može zaključiti da je voda stabilna i veoma pogodna za flaširanje. Imajući u vidu sve navedeno, može se zaključiti da je voda sa izvorišta Husića vrelo Duboko visokog kvaliteta, da je stabilna nakon flaširanja i da ispunjava sve uslove regulisane važećim propisima o prirodnim izvorskim vodama i zdravstvenoj ispravnosti vode.",
         "descrH4": "Još ove ljepote",
         "descrT4": "Ako želite vidjeti još ovog zelenog svijeta pogledajte ove slike"
     },
@@ -156,6 +157,10 @@
         "h1": "Eight-water",
         "h2": "Prirodna voda iz najboljih izvora",
         "h3": "Bosna i Hercegovina",
+        "h4": "Bugojno",
+        "h5": "Husića vrelo",
+        "h6": "Kontakt",
+        "h7": "Gdje se nalazimo",
         "email": "email",
         "phone": "telefon",
         "address": "adresa"
