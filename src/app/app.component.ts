@@ -14,8 +14,7 @@ export class AppComponent {
   languageList = [   
   { code: 'bs', label: 'Bosnian' }, 
   { code: 'en', label: 'English' },
-  { code: 'de', label: 'Deutch' },
-  { code: 'ar', label: 'Arabian' }
+  { code: 'de', label: 'Deutch' }
   ]
 
   constructor(private translate: TranslateService) {
